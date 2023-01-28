@@ -1,0 +1,586 @@
+@font-face {
+    font-family: BFONT1;
+    src: url(fonts/bfont1.otf);
+  }
+  @font-face {
+    font-family: BFONT2;
+    src: url(fonts/bfont2.otf);
+  }
+  @font-face {
+    font-family: BFONT3;
+    src: url(fonts/bfont3.otf);
+  }
+  @font-face {
+    font-family: BFONT4;
+    src: url(fonts/bfont4.otf);
+  }
+  @font-face {
+    font-family: BFONTMAIN;
+    src: url(fonts/mainbridge.ttf);
+  }
+
+body{
+    text-align: center;
+}
+
+.LandingBG{
+  background: rgb(255, 153, 0);
+
+}
+
+.flexerinnard{
+  margin-right: 7em;
+}
+
+.flexerinnardplus{
+margin-top: 1em;
+}
+
+select option{
+  font-family: BFONT3;
+}
+
+.CenterAL{
+  text-align: center;
+  font-family: BFONTMAIN;
+  margin-left: 0.4em;
+  font-weight: 400;
+  font-size: 7em;
+  color: rgb(255, 255, 255);
+}
+
+.OfferAL{
+  text-align: center;
+  font-family: BFONTMAIN;
+  margin-left: 0.1em;
+  font-weight: 400;
+  font-size: 3em;
+  color: rgb(255, 255, 255);
+}
+
+.registerbox{
+
+  margin-right: 25em;
+  margin-left: 25em;
+  padding-top: 1em;
+  padding-bottom: 3em;
+  background: white;
+  border-radius: 30px;
+}
+
+  select option{
+    background: rgba(22, 22, 22, 0.8);
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgb(63, 63, 63) 0%, rgb(39, 39, 39) 49%, rgb(0, 0, 0) 100%, 100%); 
+
+  }
+
+
+  p{
+    font-family: BFONT3;
+
+    font-size: 1.5em;
+    padding-bottom: 0.8em;
+    color: rgb(255, 166, 0);
+
+
+    transition: 1s;
+    
+
+}
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+  .recheck{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.7em;
+    font-weight: normal;
+  }
+
+  .countries{
+
+    font-family: BFONT3;
+    text-align: center;
+    color: rgb(242, 245, 245);
+    background: rgb(255, 171, 2);
+      background: linear-gradient(90deg, rgb(247, 194, 36) 0%, rgb(255, 179, 14) 50%); 
+    font-size: 1.7em;
+    height: 2.4em;
+    padding: 0.5em;
+
+    width: 15em;
+    margin-top:1.4em;
+    margin-left: -4em;
+    margin-right: -4em;
+    border-radius: 10px;
+    border-color: rgb(255, 230, 7);
+
+
+    transition: 1s;
+
+    
+  }
+
+
+
+    .textbox{
+
+    font-family: BFONT3;
+    text-align: center;
+    color: rgb(255, 253, 253);
+    background: rgb(255, 171, 2);
+    background: linear-gradient(90deg, rgb(247, 194, 36) 0%, rgb(255, 179, 14) 50%); 
+    font-size: 0.8em;
+    padding: 0.5em;
+    width: 14em;
+    margin-left: -4em;
+    margin-right: -4em;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    transition: 1s;
+
+      
+    }
+
+    .textbox:hover{
+      font-family: BFONT3;
+    text-align: center;
+    color: rgb(255, 116, 2);
+    background: rgb(88,88,88);
+    background: linear-gradient(90deg, rgba(88,88,88,1) 0%, rgba(0,0,0,1) 100%); 
+    font-size: 0.8em;
+    padding: 0.5em;
+    width: 14em;
+    margin-left: -4em;
+    margin-right: -4em;
+    border-radius: 30px;
+    border-color: rgb(255, 255, 255);
+    transition: 1s;
+
+      
+    }
+
+    .textboxdesc{
+
+      font-family: BFONT3;
+      color: rgb(255, 255, 255);
+      background: rgb(255, 226, 8);
+      background: linear-gradient(90deg, rgb(251, 147, 2) 0%, rgb(255, 134, 13) 50%); 
+      font-size: 1.7em;
+      height: 10em;
+      padding: 0.5em;
+      width: 25em;
+      margin-left: -4em;
+      margin-right: -4em;
+      border-radius: 10px;
+      border-color: rgb(255, 167, 3);
+    
+      transition: 1s;
+
+      
+    }
+
+    //file upload 1
+    
+    .custom-file-input1 {
+      color: transparent;
+    }
+    .custom-file-input1::-webkit-file-upload-button {
+      visibility: hidden;
+    }
+    .custom-file-input1::before {
+      font-family: BFONT3;
+      content: 'Choose Upload File 1';
+      color: rgb(249, 249, 249);
+      display: inline-block;
+      background: rgb(255, 171, 2);
+      background: linear-gradient(90deg, rgb(247, 194, 36) 0%, rgb(255, 179, 14) 50%); 
+      border: 1px solid #999;
+      border-radius: 3px;
+      padding: 5px 8px;
+      margin-left: 30px;
+      outline: none;
+      white-space: nowrap;
+      -webkit-user-select: none;
+      cursor: pointer;
+      text-shadow: 1px 1px #fff;
+      font-weight: 700;
+      font-size: 10pt;
+    }
+    .custom-file-input1:hover::before {
+      border-color: black;
+    }
+    .custom-file-input1:active {
+      outline: 0;
+    }
+    .custom-file-input1:active::before {
+      background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); 
+    }
+
+    //file Upload 2
+    .custom-file-input2 {
+      color: transparent;
+    }
+    .custom-file-input2::-webkit-file-upload-button {
+      visibility: hidden;
+    }
+    .custom-file-input2::before {
+      font-family: BFONT3;
+      content: 'Choose Upload File 2';
+      color: rgb(249, 249, 249);
+      display: inline-block;
+      background: rgb(255, 171, 2);
+      background: linear-gradient(90deg, rgb(247, 194, 36) 0%, rgb(255, 179, 14) 50%); 
+      border: 1px solid #999;
+      border-radius: 3px;
+      padding: 5px 8px;
+      margin-left: 30px;
+      outline: none;
+      white-space: nowrap;
+      -webkit-user-select: none;
+      cursor: pointer;
+      text-shadow: 1px 1px #fff;
+      font-weight: 700;
+      font-size: 10pt;
+    }
+    .custom-file-input2:hover::before {
+      border-color: black;
+    }
+    .custom-file-input2:active {
+      outline: 0;
+    }
+    .custom-file-input2:active::before {
+      background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); 
+    }
+
+    //file Upload 3
+    .custom-file-input3 {
+      color: transparent;
+    }
+    .custom-file-input3::-webkit-file-upload-button {
+      visibility: hidden;
+    }
+    .custom-file-input3::before {
+      font-family: BFONT3;
+      content: 'Choose Upload File 3';
+      color: rgb(249, 249, 249);
+      display: inline-block;
+      background: rgb(255, 171, 2);
+      background: linear-gradient(90deg, rgb(247, 194, 36) 0%, rgb(255, 179, 14) 50%); 
+      border: 1px solid #999;
+      border-radius: 3px;
+      padding: 5px 8px;
+      margin-left: 30px;
+      outline: none;
+      white-space: nowrap;
+      -webkit-user-select: none;
+      cursor: pointer;
+      text-shadow: 1px 1px #fff;
+      font-weight: 700;
+      font-size: 10pt;
+    }
+    .custom-file-input3:hover::before {
+      border-color: black;
+    }
+    .custom-file-input3:active {
+      outline: 0;
+    }
+    .custom-file-input3:active::before {
+      background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); 
+    }
+
+    //file Upload 4
+    .custom-file-input4 {
+      color: transparent;
+    }
+    .custom-file-input4::-webkit-file-upload-button {
+      visibility: hidden;
+    }
+    .custom-file-input4::before {
+      font-family: BFONT3;
+      content: 'Choose Upload File 4';
+      color: rgb(249, 249, 249);
+      display: inline-block;
+      background: rgb(255, 171, 2);
+      background: linear-gradient(90deg, rgb(247, 194, 36) 0%, rgb(255, 179, 14) 50%); 
+      border: 1px solid #999;
+      border-radius: 3px;
+      padding: 5px 8px;
+      margin-left: 30px;
+      outline: none;
+      white-space: nowrap;
+      -webkit-user-select: none;
+      cursor: pointer;
+      text-shadow: 1px 1px #fff;
+      font-weight: 700;
+      font-size: 10pt;
+    }
+    .custom-file-input4:hover::before {
+      border-color: black;
+    }
+    .custom-file-input4:active {
+      outline: 0;
+    }
+    .custom-file-input4:active::before {
+      background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); 
+    }
+
+    .flexer{
+      // border: 1px green solid;
+      display: flex;
+      justify-content: space-between;
+      margin: 1em 17%;
+    }
+
+    .submitfile{
+      font-family: BFONT3;
+      text-align: center;
+      color: rgb(255, 157, 0);
+      background: rgb(0,71,116);
+      background: linear-gradient(90deg, rgba(0,71,116,1) 0%, rgba(0,0,0,1) 50%);  
+      font-size: 1.0em;
+      margin-top: 1.5em;
+      padding: 0.4em;
+      width: 16em;
+      border-radius: 30px;
+      border-color: black;
+      margin-right: 8.7em;
+
+      transition: 0.5s;
+
+      
+    }
+
+    
+     //Update File
+    .updatefile {
+      color: transparent;
+    }
+    .updatefile::-webkit-file-upload-button {
+      visibility: hidden;
+    }
+    .updatefile::before {
+      font-family: BFONT3;
+      content: 'Choose Image File';
+      color: rgb(249, 249, 249);
+      display: inline-block;
+      background: rgb(255, 171, 2);
+      background: linear-gradient(90deg, rgb(247, 194, 36) 0%, rgb(255, 179, 14) 50%); 
+      border: 1px solid #999;
+      border-radius: 3px;
+      padding: 5px 8px;
+      margin-left: 30px;
+      outline: none;
+      white-space: nowrap;
+      -webkit-user-select: none;
+      cursor: pointer;
+      text-shadow: 1px 1px #fff;
+      font-weight: 700;
+      font-size: 10pt;
+    }
+    .updatefile:hover::before {
+      border-color: black;
+    }
+    .updatefile:active {
+      outline: 0;
+    }
+    .updatefile:active::before {
+      background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); 
+    }
+
+    .submit{
+      font-family: BFONT3;
+      text-align: center;
+      color: rgb(255, 191, 15);
+      background: rgb(251, 250, 246);
+      background: linear-gradient(90deg, rgb(247, 195, 27) 0%, rgb(252, 251, 247) 49%, rgb(247, 195, 27) 100%); 
+      font-size: 1.5em;
+      margin-top: 0.3em;
+      padding: 0.4em;
+      width: 13em;
+      border-radius: 30px;
+      border-color: black;
+      transition: 0.5s;
+
+      
+    }
+
+    .submit:hover{
+      font-family: BFONT3;
+      text-align: center;
+      color: white;
+      background: rgb(0,106,19);
+      background: linear-gradient(40deg, rgba(0,106,19,1) 43%, rgba(0,255,55,1) 100%); 
+      font-size: 1.6em;
+      margin-top: 0.3em;
+      padding: 0.4em;
+      width: 13em;
+      border-radius: 10px;
+      border-color: lime;
+
+
+      transition: 0.5s;
+
+      
+    }
+
+    .submitback{
+      font-family: BFONT3;
+      text-align: center;
+      color: rgb(255, 0, 0);
+      background: rgb(251, 250, 246);
+      background: linear-gradient(90deg, rgb(247, 195, 27) 0%, rgb(252, 251, 247) 49%, rgb(247, 195, 27) 100%); 
+      font-size: 1.3em;
+      margin-top: 1em;
+      padding: 0.3em;
+      width: 5em;
+      border-radius: 30px;
+      border-color: black;
+
+
+      transition: 0.5s;
+
+      
+    }
+
+    .submitback:hover{
+      font-family: BFONT3;
+      text-align: center;
+      color: white;
+      background: rgb(106, 0, 0);
+      background: linear-gradient(40deg, rgb(106, 0, 0) 43%, rgb(255, 0, 0) 100%); 
+      font-size: 1.4em;
+      margin-top: 1em;
+      padding: 0.3em;
+      width: 5em;
+      border-radius: 10px;
+      border-color: rgb(255, 0, 0);
+
+
+      transition: 0.5s;
+
+      
+    }
+
+      .submitback{
+      font-family: BFONT3;
+      text-align: center;
+      color: rgb(255, 0, 0);
+      background: rgb(251, 250, 246);
+      background: linear-gradient(90deg, rgb(247, 195, 27) 0%, rgb(252, 251, 247) 49%, rgb(247, 195, 27) 100%); 
+      font-size: 1.3em;
+      margin-top: 1em;
+      padding: 0.3em;
+      width: 5em;
+      border-radius: 30px;
+      border-color: black;
+
+
+      transition: 0.5s;
+
+      
+    }
+
+    .submitback:hover{
+      font-family: BFONT3;
+      text-align: center;
+      color: white;
+      background: rgb(106, 0, 0);
+      background: linear-gradient(40deg, rgb(106, 0, 0) 43%, rgb(255, 0, 0) 100%); 
+      font-size: 1.4em;
+      margin-top: 1em;
+      padding: 0.3em;
+      width: 5em;
+      border-radius: 10px;
+      border-color: rgb(255, 0, 0);
+
+
+      transition: 0.5s;
+
+      
+    }
+
+
+    .registerform{
+      background: rgb(0,129,147, 0.5);
+      background: linear-gradient(90deg, rgba(0,129,147,1) 0%, rgba(0,195,196,1) 49%, rgba(0,43,116,1) 100%, 60%); 
+
+
+    }
+
+
+  .contentalt{
+    margin: 2em auto;
+    justify-content: center;
+    width: fit-content;
+  }
+  .contentalt a
+  {
+    display: block;
+    justify-content: center;
+    margin-top: 0em;
+    color: #111;
+    z-index: 6;
+    background: rgba(238, 139, 41, 0.816);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    width: fit-content;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20em;
+    transition: 1s;
+
+  }
+  
+  .contentalt a:hover
+  {
+    background: #f7ff07;
+    font-size: 1.2em;
+    z-index: 6;
+    width: fit-content;
+    border: 1px solid rgba(0, 247, 255, 0.4);
+    box-shadow: 0 1px 15px rgba(1, 1, 1, 0.2);
+    transition: 1s;
+    border-radius: 140em;
+  }
+  
+  
+
+
+  .image-cropper {
+    width: 13em;
+    height: 13em;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+  }
+
+  .center{
+    display:block;
+    justify-content: center;
+
+  }
+
+
+
+    h3{
+      font-family: BFONT3;
+      font-size: 2.40em;
+      color: rgb(255, 153, 0);
+    }
+    
+    

@@ -1,0 +1,407 @@
+@font-face {
+  font-family: BFONT1;
+  src: url(fonts/bfont1.otf);
+}
+@font-face {
+  font-family: BFONT2;
+  src: url(fonts/bfont2.otf);
+}
+@font-face {
+  font-family: BFONT3;
+  src: url(fonts/bfont3.otf);
+}
+@font-face {
+  font-family: BFONT4;
+  src: url(fonts/bfont4.otf);
+}
+@font-face {
+  font-family: BFONTMAIN;
+  src: url(fonts/mainbridge.ttf);
+}
+
+body{
+  overflow: hidden; /* Hide scrollbars */
+}
+
+.LandingBG{
+  background: rgb(255, 153, 0);
+
+}
+
+
+
+.CenterAL{
+  text-align: center;
+  font-family: BFONTMAIN;
+  margin-left: 0.4em;
+  font-weight: 400;
+  font-size: 7em;
+  color: rgb(255, 255, 255);
+}
+
+
+.Pulse {
+  animation: pulse 4s infinite;
+  width: 26em;
+  margin-top: 12em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  animation-direction: normal;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  transition: 1s;
+}
+
+.Pulse:hover{
+  width: 23em;
+  -webkit-animation: hover 1s;
+  animation: hover 1s;
+  animation-name: hover;
+
+  
+  -moz-box-shadow: 0 0 5px rgb(255, 254, 252);
+  -webkit-box-shadow: 0 0 5px rgb(255, 255, 255);
+  box-shadow: inset 0px 0px 5px rgb(255, 255, 255);
+  border-radius:210px;
+  
+}
+
+.animation{
+  width: 26em;
+  margin-top: 0em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 0em;
+  transition: 1s;
+
+}
+
+    
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+    
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
+@-webkit-keyframes hover {
+  0% { -webkit-transform: rotate(0deg); }
+100% { -webkit-transform: rotate(360deg); }
+}
+
+    
+@keyframes hover {
+  0% { -webkit-transform: rotate(0deg); }
+100% { -webkit-transform: rotate(360deg); }
+  }
+
+  .buttoncraft{
+      
+      font-family: BFONT3;
+      font-size: 2em;
+      color: rgb(255, 141, 1);
+      background: rgb(244, 243, 238);
+      border-width: 0.1px;
+      padding: 0.2em;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+      padding-left: 3em;
+      padding-right: 3em;
+      border-radius: 30px;
+      margin-left: auto;
+      margin-right: auto;
+      transition: 0.5s;
+      border-color: rgb(55, 55, 55);
+
+  }
+
+
+
+  .buttoncraft:hover{
+      font-family: BFONT3;
+      font-size: 2.5em;
+      color: rgb(0, 0, 0);
+      background: rgb(251, 250, 246);
+      background: linear-gradient(90deg, rgb(247, 195, 27) 0%, rgb(252, 251, 247) 49%, rgb(247, 195, 27) 100%); 
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+      padding-left: 4em;
+      padding-right: 4em;
+      border-radius: 30px;
+      margin-left: auto;
+      margin-right: auto;
+      transition: 0.7s;
+      
+
+  }
+
+  .nbcraftlogin{
+    font-family: BFONT3;
+    font-size: 2.5em;
+    padding-top: 1em;
+    color: rgb(255, 166, 0);
+    background: white;
+    padding-bottom: 19em;
+    padding-left: 5em;
+    padding-right: 5em;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 1s;
+    
+
+}
+
+.nbcraftregister{
+  font-family: BFONT3;
+
+  font-size: 2.5em;
+  padding-top: 1em;
+  color: rgb(255, 166, 0);
+  background: rgb(240, 189, 7);
+  background: white;
+  padding-bottom: 19em;
+  padding-left: 5em;
+  padding-right: 5em;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 1s;
+  
+
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+.recheck{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 0.7em;
+  font-weight: normal;
+}
+
+  .loginformdisplay{
+
+    animation: fadeInAnimation 2s;
+    display: block;
+
+  }
+
+  .registerformdisplay{
+
+    animation: fadeInAnimation 2s;
+    display: block;
+
+  }
+
+  .textbox{
+
+    font-family: BFONT3;
+    text-align: center;
+    color: rgb(255, 253, 253);
+    background: rgb(255, 171, 2);
+    background: linear-gradient(90deg, rgb(247, 194, 36) 0%, rgb(255, 179, 14) 50%); 
+    font-size: 0.8em;
+    margin-top: 1.2em;
+    padding: 0.5em;
+    width: 14em;
+    margin-left: -4em;
+    margin-right: -4em;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    transition: 1s;
+
+    
+  }
+
+  .textbox:hover{
+    font-family: BFONT3;
+    text-align: center;
+    color: rgb(255, 116, 2);
+    background: rgb(88,88,88);
+    background: linear-gradient(90deg, rgba(88,88,88,1) 0%, rgba(0,0,0,1) 100%); 
+    font-size: 0.8em;
+    margin-top: 1.2em;
+    padding: 0.5em;
+    width: 14em;
+    margin-left: -4em;
+    margin-right: -4em;
+    border-radius: 30px;
+    border-color: rgb(255, 255, 255);
+    transition: 1s;
+
+    
+  }
+
+  .submit{
+    font-family: BFONT3;
+    text-align: center;
+    color: rgb(255, 191, 15);
+    background: rgb(251, 250, 246);
+    background: linear-gradient(90deg, rgb(247, 195, 27) 0%, rgb(252, 251, 247) 49%, rgb(247, 195, 27) 100%); 
+    font-size: 0.5em;
+    margin-top: 1.4em;
+    padding: 0.4em;
+    width: 13em;
+    border-radius: 30px;
+    border-color: black;
+    transition: 0.5s;
+
+    
+  }
+
+  .submit:hover{
+    font-family: BFONT3;
+    text-align: center;
+    color: white;
+    background: rgb(0,106,19);
+    background: linear-gradient(40deg, rgba(0,106,19,1) 43%, rgba(0,255,55,1) 100%); 
+    font-size: 0.55em;
+    margin-top: 1.6em;
+    padding: 0.4em;
+    width: 13em;
+    border-radius: 10px;
+    border-color: lime;
+    transition: 0.5s;
+
+    
+  }
+
+  .submitback{
+    font-family: BFONT3;
+    text-align: center;
+    color: rgb(255, 13, 0);
+    background: rgb(251, 250, 246);
+      background: linear-gradient(90deg, rgb(247, 195, 27) 0%, rgb(252, 251, 247) 49%, rgb(247, 195, 27) 100%);  
+    font-size: 0.40em;
+    margin-top: 1.4em;
+    padding: 0.3em;
+    width: 5em;
+    border-radius: 30px;
+    border-color: black;
+    transition: 0.5s;
+
+    
+  }
+
+  .submitback:hover{
+    font-family: BFONT3;
+    text-align: center;
+    color: white;
+    background: rgb(106, 0, 0);
+    background: linear-gradient(40deg, rgb(106, 0, 0) 43%, rgb(255, 0, 0) 100%); 
+    font-size: 0.40em;
+    margin-top: 1.6em;
+    padding: 0.3em;
+    width: 5em;
+    border-radius: 10px;
+    border-color: rgb(255, 0, 0);
+    transition: 0.5s;
+
+    
+  }
+
+
+
+  
+
+  .loginformno{
+    display: none;
+    transition: 1s;
+  } 
+    
+  .registerformno{
+    display: none;
+    transition: 1s;
+  } 
+    
+
+
+
+  .containeranimin{
+    margin-left: 50%;
+    margin-right: 50%;
+    transition: 1s;
+
+  }
+
+  .registeranimationout{
+    font-family: BFONT3;
+    font-size: 0em;
+    opacity: 0%;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    transition: 0.4s;
+  }
+
+  .loginanimationout{
+    font-family: BFONT3;
+    font-size: 0em;
+    opacity: 0%;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    transition: 0.4s;
+  }
+
+
+ 
+
+  #container{
+      position: relative;
+      margin-top: 14em;
+      display: flex;
+      justify-content:center;
+      
+
+  }
+  #containerready{
+    position: relative;
+    margin-top: -3em;
+    display: flex;
+    justify-content:center;
+    transition: 1s;
+  }
+
+  .exist{
+      visibility: visible;
+      transition: 0.5s;
+
+  }
+
+  .noexist{
+      visibility: hidden;
+
+  }
+
+  p{
+    color: white;
+  }
+  
+  
